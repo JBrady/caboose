@@ -5,12 +5,16 @@
 @import "defaults";
 
 // Default project mixins
+@import "mixins/ie-friendly-transform";
 @import "mixins/animation";
 @import "mixins/experimental-both";
 @import "mixins/global-transition";
 @import "mixins/grad";
+@import "mixins/magic-bullet-fix";
 @import "mixins/mask-image";
 @import "mixins/microfix";
+@import "mixins/position-zero";
+@import "mixins/scrollable";
 @import "mixins/typeface";
 
 // Default project easings
