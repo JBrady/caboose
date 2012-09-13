@@ -5,7 +5,13 @@
 @import "defaults";
 
 // Default project mixins
-@import "mixins";
+@import "mixins/animation";
+@import "mixins/experimental-both";
+@import "mixins/global-transition";
+@import "mixins/grad";
+@import "mixins/mask-image";
+@import "mixins/microfix";
+@import "mixins/typeface";
 
 // Default project easings
 @import "easings";
