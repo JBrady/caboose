@@ -13,6 +13,12 @@ Requires:
 
 @import "header";
 
+// box-sizing: border-box;
+// http://paulirish.com/2012/box-sizing-border-box-ftw/
+* {
+	@include box-sizing(border-box);
+}
+
 body {}
 
 @import "footer";
