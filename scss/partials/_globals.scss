@@ -1,1 +1,18 @@
+/*
+File: partials/globals
+Imported by: style.scss
+
+Description:
+	General global styling
+
+Requires:
+	- Sass
+	- Compass
+
+*/
+
+@import "header";
+
 body {}
+
+@import "footer";
