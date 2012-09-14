@@ -1,6 +1,9 @@
 // Core imports
 @import "compass";
 
+// Default project easings
+@import "easings";
+
 // Default project config options
 @import "defaults";
 
@@ -17,9 +20,6 @@
 @import "mixins/position-zero";
 @import "mixins/scrollable";
 @import "mixins/typeface";
-
-// Default project easings
-@import "easings";
 
 // Normalize HTML5 elements
 @import "compass/reset";
