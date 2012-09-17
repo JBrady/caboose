@@ -14,6 +14,6 @@ Requires:
 
 #caboose {
 	@include animation-duration($global-animation-duration);
-	@include animation-easing($global-animation-easing);
+	@include animation-timing-function($global-animation-easing);
 	@include animation-delay($global-animation-delay);
 }
