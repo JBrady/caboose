@@ -9,18 +9,17 @@
 
 // Default project mixins
 @import "mixins/animation";
-@import "mixins/debug";
 @import "mixins/experimental-both";
-@import "mixins/global-transition";
 @import "mixins/grad";
 @import "mixins/ie-friendly-transform";
-@import "mixins/magic-bullet-fix";
 @import "mixins/mask-image";
-@import "mixins/microfix";
-@import "mixins/position-zero";
 @import "mixins/respond-to";
-@import "mixins/scrollable";
-@import "mixins/typeface";
 
-// Normalize HTML5 elements
-@import "compass/reset";
+// Default project placeholders
+@import "placeholders/debug";
+@import "placeholders/global-transition";
+@import "placeholders/magic-bullet-fix";
+@import "placeholders/microfix";
+@import "placeholders/position-zero";
+@import "placeholders/scrollable";
+@import "placeholders/typeface";

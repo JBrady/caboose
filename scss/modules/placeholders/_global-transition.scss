@@ -1,4 +1,4 @@
 // Global transition
-@mixin global-transition {
+%global-transition {
 	@include transition(all, 150ms, ease-in-out);
 }

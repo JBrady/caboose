@@ -1,6 +1,6 @@
 // A new micro clearfix hack
 // http://nicolasgallagher.com/micro-clearfix-hack/
-@mixin microfix {
+%microfix {
 	// For modern browsers
 	&:before, &:after {
 		content: "";
