@@ -19,6 +19,9 @@ Requires:
 // See modules/_base.scss
 @import "modules/base";
 
+// Reset elements
+@import "partials/reset";
+
 // Import page globals
 @import "partials/globals";
 
