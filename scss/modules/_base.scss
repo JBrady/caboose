@@ -1,0 +1,25 @@
+// Core imports
+@import "compass";
+
+// Default project easings
+@import "easings";
+
+// Default project config options
+@import "defaults";
+
+// Default project mixins
+@import "mixins/animation";
+@import "mixins/experimental-both";
+@import "mixins/grad";
+@import "mixins/ie-friendly-transform";
+@import "mixins/mask-image";
+@import "mixins/respond-to";
+
+// Default project placeholders
+@import "placeholders/debug";
+@import "placeholders/global-transition";
+@import "placeholders/magic-bullet-fix";
+@import "placeholders/microfix";
+@import "placeholders/position-zero";
+@import "placeholders/scrollable";
+@import "placeholders/typeface";
