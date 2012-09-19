@@ -1,0 +1,19 @@
+/*
+File: partials/exports
+Imported by: partials/globals
+
+Description:
+	Export Caboose variables to the DOM
+	Use in tandem with https://github.com/ff0000/rosy/tree/master/rosy/modules/caboose
+
+Requires:
+	- Sass
+	- Compass
+
+*/
+
+#caboose {
+	@include animation-duration($global-animation-duration);
+	@include animation-timing-function($global-animation-easing);
+	@include animation-delay($global-animation-delay);
+}

@@ -19,10 +19,11 @@ Requires:
 // See modules/_base.scss
 @import "modules/base";
 
+// Reset elements
+@import "partials/reset";
+
 // Import page globals
-@import "partials/header";
 @import "partials/globals";
-@import "partials/footer";
 
 // Any other partials?
 // @import "partials/feature"
