@@ -12,26 +12,17 @@ Requires:
 	- Compass <http://compass-style.org/>
 
 Requires:
-	- <modules/_base.scss>
+	- <caboose/_caboose.scss>
+	- <project/_base.scss>
 
 */
 
-// See modules/_base.scss
-@import "modules/base";
+// Default project config options
+// Customize to your liking
+@import "project/defaults";
 
-// Reset elements
-@import "partials/reset";
+// Core imports
+@import "caboose/caboose";
 
-// Import page globals
-@import "partials/globals";
-
-// Any other partials?
-// @import "partials/feature"
-
-// Any IE styles?
-@import "partials/ie";
-
-// You can import your individual page views here
-// Alternatively, if you'd like individual .css files for each page
-// you can move these files to the sass root and remove the "_" prefix
-@import "views/home";
+// See project/_base.scss
+@import "project/base";

@@ -1,0 +1,18 @@
+// File: caboose/caboose
+// Imported by: style.scss
+//
+// Description:
+// 	Base caboose imports
+//
+// Requires:
+// 	- Sass
+// 	- Compass
+
+// See modules/_base.scss
+@import "modules/base";
+
+// Reset elements
+@import "partials/reset";
+
+// Export defaults to the DOM
+@import "partials/exports";

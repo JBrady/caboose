@@ -1,18 +1,12 @@
-/*
-File: partials/globals
-Imported by: style.scss
-
-Description:
-	General global styling
-
-Requires:
-	- Sass
-	- Compass
-
-*/
-
-// Export defaults to the DOM
-@import "exports";
+// File: project/partials/globals
+// Imported by: project/base
+//
+// Description:
+// 	General global styling
+//
+// Requires:
+// 	- Sass
+// 	- Compass
 
 // Global header
 @import "header";
