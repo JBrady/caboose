@@ -8,11 +8,6 @@
 // 	- Sass
 // 	- Compass
 
-// Global header
-@import "header";
-
-// Add defaults here
-
 // box-sizing: border-box;
 // http://paulirish.com/2012/box-sizing-border-box-ftw/
 * {
@@ -26,8 +21,3 @@ body {
 }
 
 a {}
-
-// End defaults
-
-// Global footer
-@import "footer";

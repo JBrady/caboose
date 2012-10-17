@@ -17,12 +17,26 @@ Requires:
 
 */
 
-// Default project config options
-// Customize to your liking
-@import "project/defaults";
+// Import project settings first
+@import "project/site-settings";
 
-// Core imports
+// Import Caboose
 @import "caboose/caboose";
 
-// See project/_base.scss
-@import "project/base";
+// Import project mixins and placeholders
+@import "project/mixins/mixins",
+		"project/placeholders/placeholders";
+
+// Import fonts
+// @import "project/fonts/proxima-nova"
+
+// Import project base
+@import "project/base/header",
+		"project/base/body",
+		"project/base/footer";
+
+// Import shared modules
+// @import "project/modules/feature"
+
+// Import page views
+@import "project/views/home";
