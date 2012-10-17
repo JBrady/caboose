@@ -21,7 +21,7 @@ Requires:
 @import "site-settings";
 
 // Import Caboose
-@import "caboose";
+@import "../caboose/caboose";
 
 // Import project mixins
 @import "mixins/mixins";

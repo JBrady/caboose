@@ -9,7 +9,7 @@
 // 	- Compass
 
 // First, import easings from caboose
-@import "base/easings";
+@import "../caboose/base/easings";
 
 // When $DEBUG is true, animation is slowed x5
 $DEBUG: false;
