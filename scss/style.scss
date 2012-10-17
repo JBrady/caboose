@@ -23,14 +23,16 @@ Requires:
 // Import Caboose
 @import "caboose/caboose";
 
-// Import project mixins and placeholders
-@import "project/mixins/mixins",
-		"project/placeholders/placeholders";
+// Import project mixins
+@import "project/mixins/mixins";
+
+// Import project placeholders
+@import "project/placeholders/placeholders";
 
 // Import fonts
 // @import "project/fonts/proxima-nova"
 
-// Import project base
+// Import project base files
 @import "project/base/header",
 		"project/base/body",
 		"project/base/footer";
