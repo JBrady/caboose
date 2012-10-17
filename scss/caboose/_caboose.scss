@@ -8,11 +8,29 @@
 // 	- Sass
 // 	- Compass
 
-// See modules/_base.scss
-@import "modules/base";
+// Core imports
+@import "compass";
 
-// Reset elements
-@import "partials/reset";
+// Default project easings
+@import "base/easings";
 
-// Export defaults to the DOM
-@import "partials/exports";
+// Default project mixins
+@import "mixins/animation",
+		"mixins/experimental-both",
+		"mixins/grad",
+		"mixins/ie-friendly-transform",
+		"mixins/mask-image",
+		"mixins/respond-to";
+
+// Default project placeholders
+@import "placeholders/debug",
+		"placeholders/global-transition",
+		"placeholders/magic-bullet-fix",
+		"placeholders/microfix",
+		"placeholders/position-zero",
+		"placeholders/scrollable",
+		"placeholders/typeface";
+
+// Export modules
+@import "base/reset",
+		"base/exports";
