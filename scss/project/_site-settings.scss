@@ -1,5 +1,17 @@
-@import "caboose/modules/easings";
+// File: project/site-settings
+// Imported by: style.scss
+//
+// Description:
+// 	Base project settings
+//
+// Requires:
+// 	- Sass
+// 	- Compass
 
+// First, import easings from caboose
+@import "caboose/base/easings";
+
+// When $DEBUG is true, animation is slowed x5
 $DEBUG: false;
 
 // Not targeting Opera or KHTML
