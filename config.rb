@@ -7,12 +7,7 @@ sass_dir = "scss/project"
 images_dir = "images"
 javascripts_dir = "javascripts"
 
-additional_import_paths = [
-	"scss/caboose",
-	"scss/caboose/rosy/custom-form-field",
-	"scss/caboose/rosy/google-chrome-frame",
-	"scss/caboose/rosy/ios-page-control"
-]
+additional_import_paths = ["scss/caboose"]
 
 # You can select your preferred output style here (can be overridden via the command line):
 # output_style = :expanded or :nested or :compact or :compressed

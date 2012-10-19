@@ -10,10 +10,10 @@ Requires:
 
 */
 
-// Save this file to resources/sass/compass/modules/_page-control.scss
-// Then @import from your style.scss file
+// @import from your style.scss file
 
 $indicator-size: (12px / 2);
+$action-color: #f00;
 
 .page-control {
 	overflow: hidden;
@@ -28,7 +28,7 @@ $indicator-size: (12px / 2);
 			> li {
 				float: left;
 				width: 100%;
-				@include webkit-animation-fix;
+				@include translateZ(0);
 			}
 		}
 	}
