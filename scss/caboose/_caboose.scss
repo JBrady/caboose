@@ -11,9 +11,6 @@
 // Core imports
 @import "compass";
 
-// Default project easings
-@import "base/easings";
-
 // Default project mixins
 @import "mixins/animation",
 		"mixins/experimental-both",
@@ -30,7 +27,3 @@
 		"placeholders/position-zero",
 		"placeholders/scrollable",
 		"placeholders/typeface";
-
-// Export modules
-@import "base/reset",
-		"base/exports";
