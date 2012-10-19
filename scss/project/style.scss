@@ -21,7 +21,7 @@ Requires:
 @import "site-settings";
 
 // Import Caboose
-@import "../caboose/caboose";
+@import "caboose";
 
 // Import project mixins
 @import "mixins/mixins";
@@ -37,8 +37,13 @@ Requires:
 		"base/body",
 		"base/footer";
 
+// Rosy Imports
+// For use with https://github.com/ff0000/rosy
+// @import "custom-form-field";
+// @import "page-control";
+
 // Import shared modules
-// @import "modules/feature"
+// @import "modules/feature";
 
 // Import page views
 @import "views/home";
