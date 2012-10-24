@@ -9,6 +9,77 @@ RED Interactive's SCSS + Compass framework
 * Robert Penner's easings ported to SASS
 * Several helper mixins and placeholders to get you started
 
+## Overview
+	+ scss
+	|  + caboose
+	|  |  + caboose
+	|  |  + mixins
+	|  |  + placeholders
+	|  |  + rosy
+	|  |  |  + custom-form-field
+	|  |  |  + google-chrome-frame
+	|  |  |  + ios-page-control
+	|  +  _caboose.scss
+	|  + project
+	|  |  + base
+	|  |  + fonts
+	|  |  + mixins
+	|  |  + modules
+	|  |  + placeholders
+	|  |  + views
+	|  +  _site-settings.scss
+	|  +  ie.scss
+	|  +  style.scss
+	+ config.rb
+
+#### The `scss/caboose` folder
+This folder should be considered pristine. Unless necessary, you should avoid restructuring or adding files to this folder.
+
+All Caboose-specific files have been scoped to the caboose folder. This includes our custom mixins and placeholders, reset strategies, easing values, etc.
+
+There are currently three [Rosy](https://github.com/ff0000/rosy) modules you can import:
+
+- [`@import "rosy/google-chrome-frame/chrome-frame"`](https://github.com/ff0000/rosy/tree/master/rosy/modules/google-chrome-frame)
+- [`@import "rosy/custom-form-field/custom-form-field"`](https://github.com/ff0000/rosy/tree/master/rosy/modules/custom-form-field)
+- [`@import "rosy/ios-page-control/page-control"`](https://github.com/ff0000/rosy/tree/master/rosy/modules/ios-page-control)
+
+Like Compass, Caboose provides specific modules you can import in your project:
+
+- `@import "caboose/easings"` - Robert Penner's easing values ported to CSS
+- `@import "caboose/exports"` - For use with [Rosy's Caboose module](https://github.com/ff0000/rosy/tree/master/rosy/modules/caboose).
+- `@import "caboose/reset"` - Caboose's custom HTML5 reset.
+
+#### The `scss/project` folder
+Files in this folder should be considered fully configurable. You may edit these files depending on your project's needs. However, you should avoid restructuring this folder.
+
+##### `scss/project/_site-settings.scss`
+Your project's default settings. Customize to your liking.
+
+##### `scss/project/ie.scss`
+Your IE-specific rules.
+
+##### `scss/project/style.scss`
+This is your base project file. All of your base, font, mixin, module, placeholder and view files should route through here.
+
+##### `scss/project/base`
+These rules define the default styling for how elements should look in all occurrences on the site. They should be considered global rules and should require no special casing. Default files: `_body.scss`, `_header.scss`, `_footer.scss`.
+
+##### `scss/project/fonts`
+A folder for your font files. You should create a file for each font you embed. Ex: `_proxima-nova.scss`, `_icons.scss`
+
+##### `scss/project/mixins`
+A folder for your mixins. A `_mixins.scss` file is provided as a catch-all. You should create a file for each prominent mixin.
+
+##### `scss/project/modules`
+A module is a more discrete component of the page. It is your navigation bars and your carousels and your dialogs and your widgets and so on. This is the meat of the page. Each module should be designed to exist as a standalone component. In doing so, the page will be more flexible.
+
+##### `scss/project/placeholders`
+A folder for your placeholders. A `_placeholders.scss` file is provided as a catch-all. You should create a file for each prominent placeholders.
+
+##### `scss/project/views`
+A view is, in essence, a page. Your Home, About, and Contact pages would all be considered views. Default files: `_home.scss`
+
+
 ## Mixins
 Mixins can be found in the scss/modules/mixins directory
 
