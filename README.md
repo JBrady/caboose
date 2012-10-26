@@ -141,6 +141,24 @@ body {
 }
 ```
 
+### `_truncate.scss`
+Force overly long spans of text to truncate.
+
+```scss
+body {
+	@include truncate(300px);
+}
+```
+
+or
+
+```scss
+body {
+	@include truncate(80%);
+}
+```
+
+
 ## Placeholders
 Placeholders can be found in the scss/modules/placeholders directory
 
