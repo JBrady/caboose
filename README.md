@@ -3,6 +3,8 @@ Caboose
 
 RED Interactive's Sass + Compass framework
 
+[![Build Status](https://secure.travis-ci.org/ff0000/caboose.png)](http://travis-ci.org/ff0000/caboose)
+
 ## Includes
 
 * Standardizes defaults across projects
