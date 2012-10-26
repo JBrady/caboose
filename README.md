@@ -1,12 +1,12 @@
 Caboose
 =========
 
-RED Interactive's SCSS + Compass framework
+RED Interactive's Sass + Compass framework
 
 ## Includes
 
 * Standardizes defaults across projects
-* Robert Penner's easings ported to SASS
+* Robert Penner's easings ported to Sass
 * Several helper mixins and placeholders to get you started
 
 ## Overview

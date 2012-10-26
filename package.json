@@ -1,6 +1,6 @@
 {
 	"name": "caboose",
-	"description": "RED Interactive's SCSS + Compass Framework.",
+	"description": "RED Interactive's Sass + Compass Framework.",
 	"version": "2.2.0",
 	"repository": {
 		"type": "git",
