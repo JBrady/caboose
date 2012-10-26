@@ -1,1 +1,34 @@
 stylesheets
+node_modules
+
+# Base
+test/caboose/caboose/easings.css
+test/caboose/caboose/exports.css
+test/caboose/caboose/reset.css
+
+# Mixins
+test/caboose/mixins/animation.css
+test/caboose/mixins/experimental-both.css
+test/caboose/mixins/grad.css
+test/caboose/mixins/ie-friendly-transform.css
+test/caboose/mixins/mask-image.css
+test/caboose/mixins/respond-to.css
+test/caboose/mixins/truncate.css
+
+# Placeholders
+test/caboose/placeholders/debug.css
+test/caboose/placeholders/global-transition.css
+test/caboose/placeholders/magic-bullet-fix.css
+test/caboose/placeholders/microfix.css
+test/caboose/placeholders/position-zero.css
+test/caboose/placeholders/scrollable.css
+test/caboose/placeholders/typeface.css
+
+# Rosy
+test/caboose/rosy/custom-form-field/custom-form-field.css
+test/caboose/rosy/google-chrome-frame/chrome-frame.css
+test/caboose/rosy/ios-page-control/page-control.css
+
+# Project
+test/project/ie.css
+test/project/style.css
