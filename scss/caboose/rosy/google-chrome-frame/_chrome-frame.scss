@@ -17,6 +17,9 @@ $cf-font-family: bold Arial;
 $cf-foreground-color: #bbc3c6 !default;
 $cf-background-color: #111 !default;
 $cf-ie9-transparent-background: "global/bg-chrome-frame-ie9.png" !default;
+$cf-chrome-icon: "global/icon-chrome-frame-chrome.png" !default;
+$cf-safari-icon: "global/icon-chrome-frame-safari.png" !default;
+$cf-firefox-icon: "global/icon-chrome-frame-firefox.png" !default;
 
 .chromeFrameOverlayCloseBar {
 	display: none;
@@ -109,7 +112,6 @@ $cf-ie9-transparent-background: "global/bg-chrome-frame-ie9.png" !default;
 
 	.choices {
 		clear: both;
-		$icons: chrome, safari, firefox;
 
 		h3, ul {
 			float: left;
@@ -139,10 +141,16 @@ $cf-ie9-transparent-background: "global/bg-chrome-frame-ie9.png" !default;
 			border: 1px solid;
 		}
 
-		@each $icon in $icons {
-			.#{$icon} {
-				background: image-url("global/icon-chrome-frame-#{$icon}.png");
-			}
+		.chrome {
+			background: image-url($cf-chrome-icon);
+		}
+
+		.safari {
+			background: image-url($cf-safari-icon);
+		}
+
+		.firefox {
+			background: image-url($cf-firefox-icon);
 		}
 	}
 
