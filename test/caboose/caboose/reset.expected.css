@@ -8,6 +8,7 @@
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box;
+  *behavior: url('/images/boxsizing.htc');
 }
 
 /* HTML5 display-role reset for older browsers */
