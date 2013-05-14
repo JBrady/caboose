@@ -13,9 +13,15 @@ Requires:
 
 */
 
+// Import project settings first
+@import "site-settings";
+
+// Import Caboose
+@import "caboose";
+
 // Rosy Imports
 // For use with https://github.com/ff0000/rosy
-// @import "rosy/google-chrome-frame/chrome-frame";
+@import "rosy/google-chrome-frame/chrome-frame";
 
 // Styles for IE7 and below
 .lt-ie8 {}
