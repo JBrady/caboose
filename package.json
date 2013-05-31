@@ -1,7 +1,7 @@
 {
 	"name": "caboose",
 	"description": "RED Interactive's Sass + Compass Framework.",
-	"version": "2.4.0",
+	"version": "2.5.0",
 	"repository": {
 		"type": "git",
 		"url": "https://github.com/ff0000/caboose.git"
@@ -13,6 +13,7 @@
 		"glob-whatev": ">=0.1.8"
 	},
 	"scripts": {
+		"pretest": "bundle install --path .bundle",
 		"test": "node test/runner.js"
 	}
 }

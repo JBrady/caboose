@@ -1,3 +1,4 @@
+/* jshint node: true */
 var cp = require("child_process");
 var fs = require("fs");
 var path = require("path");
@@ -7,8 +8,8 @@ module.exports = {
 		var cwd = process.cwd(),
 			importPath = path.join(cwd, "scss", "caboose");
 
-		var child = cp.spawn("compass", [
-			"compile",
+		var child = cp.spawn("bundle", [
+			"exec", "compass", "compile",
 			"-I", importPath,
 			"--sass-dir", dir,
 			"--css-dir", dir,
@@ -42,7 +43,7 @@ module.exports = {
 			var cssPath = path.join(file) + ".css";
 			var expectedPath = path.join(file) + ".expected.css";
 
-			it(file.replace(path.dirname(dir) + "/", "") + ".scss", function (done) {
+			it(file.replace(path.dirname(dir) + path.sep, "") + ".scss", function (done) {
 				expect(fs.existsSync(cssPath)).to.be.ok();
 				var actual = fs.readFileSync(cssPath, "utf8").split("\n");
 
