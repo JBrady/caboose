@@ -191,12 +191,12 @@ body {
 }
 ```
 
-### `_microfix.scss`
-A better [micro clearfix](http://nicolasgallagher.com/micro-clearfix-hack/) hack.
+### `_nanofix.scss`
+A better [nano clearfix](http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php) hack.
 
 ```scss
 body {
-	@extend %microfix;
+	@extend %nanofix;
 }
 ```
 

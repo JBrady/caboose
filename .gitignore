@@ -19,7 +19,7 @@ test/caboose/mixins/truncate.css
 test/caboose/placeholders/debug.css
 test/caboose/placeholders/global-transition.css
 test/caboose/placeholders/magic-bullet-fix.css
-test/caboose/placeholders/microfix.css
+test/caboose/placeholders/nanofix.css
 test/caboose/placeholders/position-zero.css
 test/caboose/placeholders/scrollable.css
 test/caboose/placeholders/typeface.css

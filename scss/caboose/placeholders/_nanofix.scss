@@ -1,0 +1,9 @@
+// Beat *that* clearfix
+// http://www.css-101.org/articles/clearfix/latest-new-clearfix-so-far.php
+%nanofix {
+	&:after {
+		content: "";
+		display: table;
+		clear: both;
+	}
+}

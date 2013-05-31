@@ -1,0 +1,5 @@
+.test-1:after, .test-2:after {
+  content: "";
+  display: table;
+  clear: both;
+}
